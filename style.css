@@ -1,0 +1,57 @@
+body{
+    background: url(/images/background.png);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.RegForm{
+    width: 500px;
+    margin: 250px auto;
+    padding: 10px 30px 30px;
+    background-color: rgba(0, 0, 0, .5);
+    color: aliceblue;
+    font-size: 1.2em;
+    border-radius: 15px;
+    
+}
+
+.RegForm h3{
+    text-align: center;
+    color: aqua;
+    
+}
+.RegForm .textlable{
+    display: block;
+}
+
+.input input{
+    width: 100%;
+    font-size: 1.2em;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    box-shadow: 5px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 6px 0px 15px;
+
+}
+input:focus{
+    background-color: aqua;
+  
+}
+.btn{
+    text-align: center;
+}
+button{
+    background-color: aqua;
+    font-size: 1em;
+    margin-top: 15px;
+    padding: 15px 25px;
+    border-radius: 20px;
+    box-shadow: 5px;
+    border: 1px solid aqua;
+}
+.radio input{
+    accent-color: aqua;
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
